@@ -1,0 +1,549 @@
+/**
+ * Created by wanglinfei on 2017/10/24.
+ */
+export const singerData = [{
+    "title": "热门",
+    "list": [{
+        "name": "薛之谦",
+        "id": "002J4UUk29y8BY",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002J4UUk29y8BY.jpg?max_age=2592000"
+    }, {
+        "name": "周杰伦",
+        "id": "0025NhlN2yWrP4",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M0000025NhlN2yWrP4.jpg?max_age=2592000"
+    }, {
+        "name": "BIGBANG (빅뱅)",
+        "id": "004AlfUb0cVkN1",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000004AlfUb0cVkN1.jpg?max_age=2592000"
+    }, {
+        "name": "陈奕迅",
+        "id": "003Nz2So3XXYek",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003Nz2So3XXYek.jpg?max_age=2592000"
+    }, {
+        "name": "林俊杰",
+        "id": "001BLpXF2DyJe2",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001BLpXF2DyJe2.jpg?max_age=2592000"
+    }, {
+        "name": "Alan Walker (艾伦·沃克)",
+        "id": "0020PeOh4ZaCw1",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M0000020PeOh4ZaCw1.jpg?max_age=2592000"
+    }, {
+        "name": "李荣浩",
+        "id": "000aHmbL2aPXWH",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000aHmbL2aPXWH.jpg?max_age=2592000"
+    }, {
+        "name": "TFBOYS",
+        "id": "000zmpju02bEBm",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000zmpju02bEBm.jpg?max_age=2592000"
+    }, {
+        "name": "Maroon 5 (魔力红乐团)",
+        "id": "001JuGrt372YIQ",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001JuGrt372YIQ.jpg?max_age=2592000"
+    }, {
+        "name": "许嵩",
+        "id": "000CK5xN3yZDJt",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000CK5xN3yZDJt.jpg?max_age=2592000"
+    }, {
+        "name": "G.E.M. 邓紫棋",
+        "id": "001fNHEf1SFEFN",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001fNHEf1SFEFN.jpg?max_age=2592000"
+    }, {
+        "name": "张杰",
+        "id": "002azErJ0UcDN6",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002azErJ0UcDN6.jpg?max_age=2592000"
+    }, {
+        "name": "鹿晗",
+        "id": "001SqkF53OEhdO",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001SqkF53OEhdO.jpg?max_age=2592000"
+    }, {
+        "name": "庄心妍",
+        "id": "003Cn3Yh16q1MO",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003Cn3Yh16q1MO.jpg?max_age=2592000"
+    }, {
+        "name": "杨宗纬",
+        "id": "003tMm0y0TuewY",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003tMm0y0TuewY.jpg?max_age=2592000"
+    }, {
+        "name": "Justin Bieber (贾斯汀·比伯)",
+        "id": "002DYpxl3hW3EP",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002DYpxl3hW3EP.jpg?max_age=2592000"
+    }, {
+        "name": "张碧晨",
+        "id": "0003ZpE43ypssl",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M0000003ZpE43ypssl.jpg?max_age=2592000"
+    }, {
+        "name": "华晨宇",
+        "id": "002Vcz8F2hpBQj",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002Vcz8F2hpBQj.jpg?max_age=2592000"
+    }, {
+        "name": "张学友",
+        "id": "004Be55m1SJaLk",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000004Be55m1SJaLk.jpg?max_age=2592000"
+    }, {
+        "name": "田馥甄",
+        "id": "001ByAsv3XCdgm",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001ByAsv3XCdgm.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "A",
+    "list": [{
+        "name": "Alan Walker (艾伦·沃克)",
+        "id": "0020PeOh4ZaCw1",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M0000020PeOh4ZaCw1.jpg?max_age=2592000"
+    }, {
+        "name": "A-Lin",
+        "id": "003ArN8Z0WpjTz",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003ArN8Z0WpjTz.jpg?max_age=2592000"
+    }, {
+        "name": "Adele (阿黛尔)",
+        "id": "003CoxJh1zFPpx",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003CoxJh1zFPpx.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "B",
+    "list": [{
+        "name": "BIGBANG (빅뱅)",
+        "id": "004AlfUb0cVkN1",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000004AlfUb0cVkN1.jpg?max_age=2592000"
+    }, {
+        "name": "BEYOND",
+        "id": "002pUZT93gF4Cu",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002pUZT93gF4Cu.jpg?max_age=2592000"
+    }, {
+        "name": "本兮",
+        "id": "003LaMHm42u7qS",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003LaMHm42u7qS.jpg?max_age=2592000"
+    }, {
+        "name": "BLACKPINK",
+        "id": "003DBAjk2MMfhR",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003DBAjk2MMfhR.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "C",
+    "list": [{
+        "name": "陈奕迅",
+        "id": "003Nz2So3XXYek",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003Nz2So3XXYek.jpg?max_age=2592000"
+    }, {
+        "name": "陈小春",
+        "id": "004DFS271osAwp",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000004DFS271osAwp.jpg?max_age=2592000"
+    }, {
+        "name": "Charlie Puth (查理·普斯)",
+        "id": "000jnR7q3pCzYG",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000jnR7q3pCzYG.jpg?max_age=2592000"
+    }, {
+        "name": "陈翔",
+        "id": "004EyqQS2hMS6V",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000004EyqQS2hMS6V.jpg?max_age=2592000"
+    }, {
+        "name": "蔡健雅",
+        "id": "000hNnWC3kko2c",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000hNnWC3kko2c.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "E",
+    "list": [{
+        "name": "Eminem (艾米纳姆)",
+        "id": "000yDAjj2TE9j8",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000yDAjj2TE9j8.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "F",
+    "list": [{
+        "name": "Fall Out Boy (打倒男孩)",
+        "id": "003CKb192ggBqi",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003CKb192ggBqi.jpg?max_age=2592000"
+    }, {
+        "name": "范玮琪",
+        "id": "003vyG9q2klWs4",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003vyG9q2klWs4.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "G",
+    "list": [{
+        "name": "G.E.M. 邓紫棋",
+        "id": "001fNHEf1SFEFN",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001fNHEf1SFEFN.jpg?max_age=2592000"
+    }, {
+        "name": "G-DRAGON (权志龙)",
+        "id": "000t2qd13dLpae",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000t2qd13dLpae.jpg?max_age=2592000"
+    }, {
+        "name": "葛林",
+        "id": "002OfR3n1vx75j",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002OfR3n1vx75j.jpg?max_age=2592000"
+    }, {
+        "name": "郭静",
+        "id": "0043Zxw10txf5O",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M0000043Zxw10txf5O.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "H",
+    "list": [{
+        "name": "华晨宇",
+        "id": "002Vcz8F2hpBQj",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002Vcz8F2hpBQj.jpg?max_age=2592000"
+    }, {
+        "name": "胡夏",
+        "id": "002mze3U0NYXOM",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002mze3U0NYXOM.jpg?max_age=2592000"
+    }, {
+        "name": "韩安旭",
+        "id": "004QoDUs3jfOC6",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000004QoDUs3jfOC6.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "J",
+    "list": [{
+        "name": "Justin Bieber (贾斯汀·比伯)",
+        "id": "002DYpxl3hW3EP",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002DYpxl3hW3EP.jpg?max_age=2592000"
+    }, {
+        "name": "金志文",
+        "id": "004YXxql1sSr2o",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000004YXxql1sSr2o.jpg?max_age=2592000"
+    }, {
+        "name": "Jam",
+        "id": "0023ni2j3F9CpN",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M0000023ni2j3F9CpN.jpg?max_age=2592000"
+    }, {
+        "name": "金南玲",
+        "id": "001m7JoC1IVL44",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001m7JoC1IVL44.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "K",
+    "list": [{
+        "name": "筷子兄弟",
+        "id": "002Sm9iK4RIsCr",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002Sm9iK4RIsCr.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "L",
+    "list": [{
+        "name": "林俊杰",
+        "id": "001BLpXF2DyJe2",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001BLpXF2DyJe2.jpg?max_age=2592000"
+    }, {
+        "name": "李荣浩",
+        "id": "000aHmbL2aPXWH",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000aHmbL2aPXWH.jpg?max_age=2592000"
+    }, {
+        "name": "鹿晗",
+        "id": "001SqkF53OEhdO",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001SqkF53OEhdO.jpg?max_age=2592000"
+    }, {
+        "name": "林宥嘉",
+        "id": "001f0VyZ1hmWZ1",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001f0VyZ1hmWZ1.jpg?max_age=2592000"
+    }, {
+        "name": "李易峰",
+        "id": "002xpOdd4Dh6pu",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002xpOdd4Dh6pu.jpg?max_age=2592000"
+    }, {
+        "name": "李宇春",
+        "id": "002ZOuVm3Qn20Y",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002ZOuVm3Qn20Y.jpg?max_age=2592000"
+    }, {
+        "name": "李圣杰",
+        "id": "002seUhN1Akj7J",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002seUhN1Akj7J.jpg?max_age=2592000"
+    }, {
+        "name": "刘瑞琦",
+        "id": "003bQEFA3KrvLI",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003bQEFA3KrvLI.jpg?max_age=2592000"
+    }, {
+        "name": "刘德华",
+        "id": "003aQYLo2x8izP",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003aQYLo2x8izP.jpg?max_age=2592000"
+    }, {
+        "name": "李克勤",
+        "id": "003nS2v740Lxcw",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003nS2v740Lxcw.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "M",
+    "list": [{
+        "name": "Maroon 5 (魔力红乐团)",
+        "id": "001JuGrt372YIQ",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001JuGrt372YIQ.jpg?max_age=2592000"
+    }, {
+        "name": "MC天佑",
+        "id": "0035kILA0ydw3j",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M0000035kILA0ydw3j.jpg?max_age=2592000"
+    }, {
+        "name": "MC魏小然",
+        "id": "000WbpKa3WokLD",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000WbpKa3WokLD.jpg?max_age=2592000"
+    }, {
+        "name": "莫文蔚",
+        "id": "000cISVf2QqLc6",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000cISVf2QqLc6.jpg?max_age=2592000"
+    }, {
+        "name": "马旭东",
+        "id": "003wWQBU0fHBcj",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003wWQBU0fHBcj.jpg?max_age=2592000"
+    }, {
+        "name": "萌萌哒天团",
+        "id": "003rJfMG3PPqWd",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003rJfMG3PPqWd.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "N",
+    "list": [{
+        "name": "那英",
+        "id": "003LCFXH0eodXv",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003LCFXH0eodXv.jpg?max_age=2592000"
+    }, {
+        "name": "南征北战",
+        "id": "003ZQQb64D5317",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003ZQQb64D5317.jpg?max_age=2592000"
+    }, {
+        "name": "牛奶咖啡",
+        "id": "0012bj8d36Xkw1",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M0000012bj8d36Xkw1.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "O",
+    "list": [{
+        "name": "Owl City (猫头鹰之城)",
+        "id": "002a1DuK4evNsR",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002a1DuK4evNsR.jpg?max_age=2592000"
+    }, {
+        "name": "One Direction (单向组合)",
+        "id": "001FXn5P0kkWfV",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001FXn5P0kkWfV.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "P",
+    "list": [{
+        "name": "朴树",
+        "id": "000mLAT42CFWNa",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000mLAT42CFWNa.jpg?max_age=2592000"
+    }, {
+        "name": "鹏泊",
+        "id": "003vSrlp0ujV6o",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003vSrlp0ujV6o.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "Q",
+    "list": [{
+        "name": "曲婉婷",
+        "id": "0030RkE50nmpWC",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M0000030RkE50nmpWC.jpg?max_age=2592000"
+    }, {
+        "name": "齐一",
+        "id": "0020IaUo4Vgsjk",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M0000020IaUo4Vgsjk.jpg?max_age=2592000"
+    }, {
+        "name": "齐晨",
+        "id": "000H4xDG3heHtr",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000H4xDG3heHtr.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "R",
+    "list": [{
+        "name": "RADWIMPS (ラッドウィンプス)",
+        "id": "000f1b6W1wzyRN",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000f1b6W1wzyRN.jpg?max_age=2592000"
+    }, {
+        "name": "Rihanna (蕾哈娜)",
+        "id": "002MiBdR19HQWx",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002MiBdR19HQWx.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "S",
+    "list": [{
+        "name": "苏打绿",
+        "id": "000Q4W691sMvLG",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000Q4W691sMvLG.jpg?max_age=2592000"
+    }, {
+        "name": "孙子涵",
+        "id": "001oXbjs29oPul",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001oXbjs29oPul.jpg?max_age=2592000"
+    }, {
+        "name": "宋冬野",
+        "id": "004KKLWZ4320g1",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000004KKLWZ4320g1.jpg?max_age=2592000"
+    }, {
+        "name": "孙燕姿",
+        "id": "001pWERg3vFgg8",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001pWERg3vFgg8.jpg?max_age=2592000"
+    }, {
+        "name": "双笙",
+        "id": "001t94rh4OpQn0",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001t94rh4OpQn0.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "T",
+    "list": [{
+        "name": "TFBOYS",
+        "id": "000zmpju02bEBm",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000zmpju02bEBm.jpg?max_age=2592000"
+    }, {
+        "name": "田馥甄",
+        "id": "001ByAsv3XCdgm",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001ByAsv3XCdgm.jpg?max_age=2592000"
+    }, {
+        "name": "The Chainsmokers (烟民二人组)",
+        "id": "004ABIFV1EZUAj",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000004ABIFV1EZUAj.jpg?max_age=2592000"
+    }, {
+        "name": "Tez Cadey",
+        "id": "000ndQx82fsq8Z",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000ndQx82fsq8Z.jpg?max_age=2592000"
+    }, {
+        "name": "逃跑计划",
+        "id": "001Yxpxc0OaUUX",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001Yxpxc0OaUUX.jpg?max_age=2592000"
+    }, {
+        "name": "谭晶",
+        "id": "000QG95i2rHlOf",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000QG95i2rHlOf.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "W",
+    "list": [{
+        "name": "王力宏",
+        "id": "001JDzPT3JdvqK",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001JDzPT3JdvqK.jpg?max_age=2592000"
+    }, {
+        "name": "吴亦凡",
+        "id": "002yeznU3VAVEV",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002yeznU3VAVEV.jpg?max_age=2592000"
+    }, {
+        "name": "汪苏泷",
+        "id": "001z2JmX09LLgL",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001z2JmX09LLgL.jpg?max_age=2592000"
+    }, {
+        "name": "王菲",
+        "id": "000GDDuQ3sGQiT",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000GDDuQ3sGQiT.jpg?max_age=2592000"
+    }, {
+        "name": "Wiz Khalifa (维兹·卡利法)",
+        "id": "000CQ06r24Naco",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000CQ06r24Naco.jpg?max_age=2592000"
+    }, {
+        "name": "汪峰",
+        "id": "001adLDR1SS40P",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001adLDR1SS40P.jpg?max_age=2592000"
+    }, {
+        "name": "威仔",
+        "id": "001WcO2V0TLCv3",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001WcO2V0TLCv3.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "X",
+    "list": [{
+        "name": "薛之谦",
+        "id": "002J4UUk29y8BY",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002J4UUk29y8BY.jpg?max_age=2592000"
+    }, {
+        "name": "许嵩",
+        "id": "000CK5xN3yZDJt",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000CK5xN3yZDJt.jpg?max_age=2592000"
+    }, {
+        "name": "萧敬腾",
+        "id": "004bsIDK0awMOv",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000004bsIDK0awMOv.jpg?max_age=2592000"
+    }, {
+        "name": "许巍",
+        "id": "00235pCx2tYjlq",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M00000235pCx2tYjlq.jpg?max_age=2592000"
+    }, {
+        "name": "徐良",
+        "id": "004aRKga0CXIPm",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000004aRKga0CXIPm.jpg?max_age=2592000"
+    }, {
+        "name": "夏婉安",
+        "id": "001oNMzI3WznzG",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001oNMzI3WznzG.jpg?max_age=2592000"
+    }, {
+        "name": "徐佳莹",
+        "id": "002LZVMH0zc8F4",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002LZVMH0zc8F4.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "Y",
+    "list": [{
+        "name": "杨宗纬",
+        "id": "003tMm0y0TuewY",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003tMm0y0TuewY.jpg?max_age=2592000"
+    }, {
+        "name": "杨洋",
+        "id": "004coWV04C5FCV",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000004coWV04C5FCV.jpg?max_age=2592000"
+    }, {
+        "name": "雨宗林",
+        "id": "004FtTNW2b0tJi",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000004FtTNW2b0tJi.jpg?max_age=2592000"
+    }, {
+        "name": "易烊千玺",
+        "id": "001IoTZp19YMDG",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000001IoTZp19YMDG.jpg?max_age=2592000"
+    }]
+}, {
+    "title": "Z",
+    "list": [{
+        "name": "周杰伦",
+        "id": "0025NhlN2yWrP4",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M0000025NhlN2yWrP4.jpg?max_age=2592000"
+    }, {
+        "name": "张杰",
+        "id": "002azErJ0UcDN6",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002azErJ0UcDN6.jpg?max_age=2592000"
+    }, {
+        "name": "庄心妍",
+        "id": "003Cn3Yh16q1MO",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003Cn3Yh16q1MO.jpg?max_age=2592000"
+    }, {
+        "name": "张碧晨",
+        "id": "0003ZpE43ypssl",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M0000003ZpE43ypssl.jpg?max_age=2592000"
+    }, {
+        "name": "张学友",
+        "id": "004Be55m1SJaLk",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000004Be55m1SJaLk.jpg?max_age=2592000"
+    }, {
+        "name": "张靓颖",
+        "id": "000aw4WC2EQYTv",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000aw4WC2EQYTv.jpg?max_age=2592000"
+    }, {
+        "name": "张惠妹",
+        "id": "003JGrNQ3RjelA",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003JGrNQ3RjelA.jpg?max_age=2592000"
+    }, {
+        "name": "周传雄",
+        "id": "004NMZuf2BLjg8",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000004NMZuf2BLjg8.jpg?max_age=2592000"
+    }, {
+        "name": "张信哲",
+        "id": "0000mFvh1jtLcz",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M0000000mFvh1jtLcz.jpg?max_age=2592000"
+    }, {
+        "name": "张宇",
+        "id": "0044wQXL0ElWF1",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M0000044wQXL0ElWF1.jpg?max_age=2592000"
+    }, {
+        "name": "张磊",
+        "id": "004eaDNU1nfRO0",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000004eaDNU1nfRO0.jpg?max_age=2592000"
+    }, {
+        "name": "张韶涵",
+        "id": "002raUWw3PXdkT",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000002raUWw3PXdkT.jpg?max_age=2592000"
+    }, {
+        "name": "周二珂",
+        "id": "0042kZuh1dgLre",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M0000042kZuh1dgLre.jpg?max_age=2592000"
+    }, {
+        "name": "张敬轩",
+        "id": "003AfDK34H82GU",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000003AfDK34H82GU.jpg?max_age=2592000"
+    }, {
+        "name": "张赫宣",
+        "id": "000SJp6n49rDgl",
+        "imgUrl": "https://y.gtimg.cn/music/photo_new/T001R150x150M000000SJp6n49rDgl.jpg?max_age=2592000"
+    }]
+}]
