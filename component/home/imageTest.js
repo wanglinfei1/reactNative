@@ -6,7 +6,7 @@ import {ScrollView,StyleSheet,View,Text,Image,TouchableOpacity,Alert,Linking} fr
 import {connect} from 'react-redux'
 import {changeTabState} from '../redux/actions/tabAction'
 import {changeMusicPlayState} from '../redux/actions/musicPlayAction'
-import {serverUrl} from '../js/fn'
+import {serverUrl,serverHtmlUrl} from '../js/fn'
 class ImageTest extends Component{
     constructor(props){
         super(props);
@@ -19,7 +19,7 @@ class ImageTest extends Component{
                 <TouchableOpacity
                     activeOpacity={0.8}
                     onPress={() => {
-                        navigate('WebViewComponent',{mobile_url:serverUrl+"/vueMusic"})
+                        navigate('WebViewComponent',{mobile_url:serverHtmlUrl+"/vueMusic"})
                         this.props.dispatch(changeTabState(0))
                     }}>
                     <Text style={styles.itemText}>vue音乐播放器</Text>

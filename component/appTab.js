@@ -14,7 +14,6 @@ import Featrured from './view/featured'
 import USBox from './view/USBox'
 import Search from './view/search'
 import Home from './view/Home'
-
 class AppTab extends Component {
     constructor(props) {
         super(props);

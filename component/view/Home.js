@@ -13,7 +13,7 @@ import WebViewComponent from './webView'
 import WebBrowser from '../home/webBrowser'
 import VideoPlayer from '../home/videoPlay'
 import {styles} from '../css/styles'
-import {serverUrl} from '../js/fn'
+import {serverUrl,serverHtmlUrl} from '../js/fn'
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import IconF from 'react-native-vector-icons/FontAwesome';
 import MusicPlay from '../home/musicPlay'
@@ -23,6 +23,7 @@ const userIcon=(<IconF name="user" size={22} style={{color:'#6435c9'}}></IconF>)
 export const Navigator = StackNavigator({
     TabComponent:{screen:Tab},
     WebViewComponent:{screen:WebViewComponent},
+    WebViewComponent2: {screen: WebViewComponent,},
     webBrowser:{
         screen:WebBrowser,
         navigationOptions: ({navigation, screenProps})=>({
@@ -56,7 +57,7 @@ export const Navigator = StackNavigator({
         headerRight: navigation.state.params&&navigation.state.params.userHiden?<Text></Text>:<TouchableOpacity
             onPress={()=>{
                 let {navigate}=navigation;
-                navigate('WebViewComponent',{title:"调转加载网页",mobile_url:'http://wzytop.top',userHiden:true})
+                navigate('WebViewComponent',{title:"调转加载网页",mobile_url:serverHtmlUrl,userHiden:true})
             }}
             style={styles.headerRight}>{userIcon}</TouchableOpacity>
     })

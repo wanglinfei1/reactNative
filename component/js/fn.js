@@ -2,6 +2,7 @@
  * Created by wanglinfei on 2017/10/17.
  */
 export const serverUrl = 'http://wzytop.top';
+export const serverHtmlUrl = 'http://www.wzytop.top';
 
 export const createNonceStr = function () {
     return Math.random().toString(36).substr(2, 15);

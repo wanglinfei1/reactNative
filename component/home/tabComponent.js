@@ -9,7 +9,6 @@ import ImageTest from './imageTest'
 import TestComponent from './testComponent'
 import UserComponent from './userComponent'
 import HomeComponent from './homeComponent'
-
 export const Tab = TabNavigator({
         Home: {
             screen: HomeComponent,

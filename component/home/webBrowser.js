@@ -6,6 +6,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import {connect} from 'react-redux'
 import {changeTabState} from '../redux/actions/tabAction'
 import Loading from '../js/loading'
+import {serverUrl,serverHtmlUrl} from '../js/fn'
 import {
     StyleSheet,
     Text,
@@ -55,7 +56,7 @@ class WebBrowser extends Component {
         )
     }
     render() {
-        var html = this.state.isPostMessage ? 'https://wanglinfei1.github.io/static/html/messagingtest.html' : 'https://wanglinfei1.github.io/static/html//helloworld.html';
+        var html = this.state.isPostMessage ? serverHtmlUrl+'/html/messagingtest.html' : serverHtmlUrl+'/html//helloworld.html';
         return (
             <View
                 title=""
